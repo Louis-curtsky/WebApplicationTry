@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Louis @ViewBag.Title</title>
+    <link href="~/css/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Sokoban</h1>
+        <div>Hour: <span id="hour"></span></div>
+        <div>Minute: <span id="minute"></span></div>
+        <div>Second: <span id="seconds"></span></div>
+    </header>
+    <hr>
+    <div id="myGame" class="gameArea">    </div>
+    <hr>
+    <h2 id="msgArea"></h2>
+    <div>
+        @RenderBody()
+    </div>
+    <footer><p>By Louis Lim</p></footer>
+</body>
+</html>
+

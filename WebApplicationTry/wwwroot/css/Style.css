@@ -1,0 +1,43 @@
+﻿body {
+    background: rgb(123, 116, 161);
+    height: 100vh;
+    width: 100vw;
+}
+
+.gameArea {
+    display: grid;
+    background-color: #9a66a7;
+    grid-template: auto / repeat(19, 1fr);
+    grid-gap: 3px;
+    width: 570px;
+    height: 500px;
+    margin-left: 10%;
+    top: 0px;
+    border: 3px solid rgb(97, 7, 7);
+    padding: 2rem 3rem 2rem;
+}
+
+.P {
+    background-image: url("");
+    background-image: url('../img/FishLightGreen.png');
+    background-size: contain;
+}
+
+.W {
+    background-image: url("../img/wall.png");
+    background-size: contain;
+}
+
+.G {
+    background-color: darkslategray;
+    background-size: contain;
+}
+
+.B {
+    background-image: url("../img/2-2-grinning-face-emoji-png.png");
+    background-size: contain;
+}
+
+#msgArea {
+    color: antiquewhite;
+}
